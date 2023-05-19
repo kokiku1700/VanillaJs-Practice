@@ -12,6 +12,7 @@
 </head>
 <body>
     <div id="wrap">
+        <!-- 클릭시 섹션 이동 헤더 -->
         <header id="header">
             <div class="header-wrap">
                 <ul>
@@ -22,18 +23,21 @@
                     <li class="moveSec">section5</li>
                 </ul>
             </div>
+            <!-- 클릭시 모달창 열림 -->
             <div class="modalImo">
                 <img src="img/todo.png">
             </div>
         </header>
         
         <main id="main">
+            <!-- 섹션1 클릭시 섹션1 배경색 변경-->
             <section id="section1">  
                 <div class="section1-wrap">
                     <h2>버튼을 클릭하면 랜덤으로 배경색이 변합니다.</h2>
                     <button id="btnFlip">Click!</button>
                 </div>
             </section>
+            <!-- 섹션2 호버시 카드 뒤집기 -->
             <section id="section2">
                 <div class="section2-wrap">
                     <h2>Card Flip</h2>
@@ -79,7 +83,7 @@
         <footer id="footer">
 
         </footer>
-
+        <!-- 모달창 = 작성 내용 저장 기능 -->
         <div class="modal">
             <img src="img/x.png">
             <div>
@@ -92,5 +96,6 @@
     </div>
     <script src="js/sec-colorFlip.js"></script>
     <script src="js/headerNav.js"></script>
+    <script src="js/modal.js"></script>
 </body>
 </html>
