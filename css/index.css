@@ -224,8 +224,14 @@
     color: #fff;
 }
 .modal div ul {
-
+    margin: 0 auto;
+    width: 90%;
+    list-style: decimal;
+    text-align: left;
+    
 }
 .modal div ul li {
+    margin: 1.5% 2%;
+    border-bottom: 1px solid #000;
     
 }
