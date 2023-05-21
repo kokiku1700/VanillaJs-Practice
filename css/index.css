@@ -194,7 +194,7 @@
     align-items: center;
     background-color: rgba(0, 0, 0, 0.8);
 }
-.modal img {
+.modal .xImo {
     position: absolute;
     top: 4%;
     right: 4%;
@@ -212,7 +212,9 @@
 .modal div input {
     width: 20rem;
     height: 2rem;
-    border: .5px solid gray;
+    border: none;
+    border-bottom: 1px solid #000;
+    border-radius: 5%;
 }
 .modal div button {
     width: 4rem;
@@ -232,6 +234,13 @@
 }
 .modal div ul li {
     margin: 1.5% 2%;
+    padding-bottom: 1%;
     border-bottom: 1px solid #000;
-    
+
+}
+.modal div ul li img {
+    width: 1.5rem;
+    float: right;
+    margin-right: 5%;
+    cursor: pointer;
 }
