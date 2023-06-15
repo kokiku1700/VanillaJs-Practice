@@ -38,6 +38,11 @@
     max-width: 100%; height: auto;
 }
 
+/* 반응형 헤더 */
+@media all and (max-width:768px){
+    .header-wrap { display: none; }
+}
+
 /* 메인 부분 */
 #main {
     width: 100%; height: 100%; 

@@ -7,12 +7,9 @@ btnFlip.addEventListener('click', () => {
     let g = Math.floor(Math.random() * 255);
     let b = Math.floor(Math.random() * 255);
     let rgb = `rgb(${r}, ${g}, ${b})`;
-    let colorArr = [];
-    colorArr.push(rgb);
-    if(colorArr.length > 1) {
-        colorArr.shift();
-    }
-    bgColorFlip.style.backgroundColor = colorArr[0];
+    
+    bgColorFlip.style.backgroundColor = rgb;
     console.log(rgb);  
+    
 });
 
